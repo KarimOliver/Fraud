@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 .csv
 
+#large data files
+Data/*.csv
+Data/*.zip
