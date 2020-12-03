@@ -27,14 +27,14 @@ I acquired all of my data [here](https://www.kaggle.com/c/ieee-fraud-detection/d
 Though four datasets were provided by Vesta, I only chose to use one, the train_transaction set.   As far as feature engineering , I removed the 334 "Vesta engineered feature" columns since, all of them had more than 400,000 null values, and it was never articulated exactly what each feature represented. I also got rid of the TransactionID column since provided zero analytical purpose. I took an early look at the fraud level by product code just to get a feel for the data. 
 
 
-![Fraud By Product Code](Static/Fraud By Product Code.png)
+![Fraud By Product Code](Static/FraudByProductCode.png)
 
 
 
 
 I created a numerical train set and used the StandardScaler to scale the data. I then created a categorical set and OneHotEncoding most of the columns in that set, before finally merging the two sets. After running my first logistic regression model, I smoted the data to fix the class imbalance. Below is a photo of the class imbalance 
 
-![Class Imbalance](Static/Class Imbalance.png)
+![Class Imbalance](Static/ClassImbalance.png)
 
 
 
@@ -43,9 +43,9 @@ Model
 
 I started with a baseline dummy classifier that achieved a crossval score of 93, but a precision score on the fraudulent transaction data of just 3%. and moved My best performance was a random forest classifier model with a CrossValidation score of 97. The f1 score on the fraudulent transactions was not great, but the precision score of 75% was much better than the other competing models. Below are the complete metrics and confusion matric for the best model. 
 
-![Confusion Matrix](Static/Random Forest Confusion Matrix.png)
+![Confusion Matrix](Static/RandomForestConfusionMatrix.png)
 
-![Metrics](Static/Random Forest Metrics.png)
+![Metrics](Static/RandomForestMetrics.png)
 
 
 
