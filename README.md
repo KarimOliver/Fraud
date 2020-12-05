@@ -1,5 +1,8 @@
 # Fraud
 
+by Karim Oliver
+
+
 
 
 # Repo Contents 
@@ -10,7 +13,7 @@ Notebook - Here is my EDA notebook. It's pretty rough, but it has the other mode
 
 [Report](Report) Slides are in here individually and the final notebook is [here](Report/FInal.ipynb) . 
  
-Fraud.yml - Contains all of the packages needed to run the code in this project
+Fraud.yml - Contains all of the packages needed to run the code for this project
 
 
 
