@@ -30,7 +30,7 @@ It's annoying in the moment, but this techonology saves consumers and businessee
 # Data Acquisition
 
 
-I acquired all of my data [here](https://www.kaggle.com/c/ieee-fraud-detection/data) from Vesta via Kaggle. Vesta Corporation is an fraud detection firm that specializes in Ecommerce and guarantees more than 18 billion dollars in online transactions each year. They released the datasets as part of a Kaggle competition that they sponsored. 
+I acquired all of my data [here](https://www.kaggle.com/c/ieee-fraud-detection/data) from Vesta via Kaggle. As I explained above, create a data folder in your jupyter notebook and import the Train_Transaction set as a CSV file to that data folder. Vesta Corporation is an fraud detection firm that specializes in Ecommerce and guarantees more than 18 billion dollars in online transactions each year. They released the datasets as part of a Kaggle competition that they sponsored. 
 
 
 # EDA
