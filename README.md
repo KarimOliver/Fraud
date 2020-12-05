@@ -9,9 +9,11 @@ by Karim Oliver
 
 I got my data here [Data](https://www.kaggle.com/c/ieee-fraud-detection/data). Create a data folder in your jupyter notebook and import the Train_Transaction set as a CSV file to that data folder. 
 
-Notebook - Here is my EDA notebook. It's pretty rough, but it has the other models I ran. 
+Exploratory - Here is my EDA notebook. It's pretty rough, but it has the other models I ran. 
 
 [Report](Report) Slides are in here individually and the final notebook is [here](Report/FInal.ipynb) . 
+
+Static - Images used in the Final Notebook
  
 Fraud.yml - Contains all of the packages needed to run the code for this project
 
