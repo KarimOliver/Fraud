@@ -52,7 +52,7 @@ I created a numerical train set and used the StandardScaler to scale the data. I
 # Model 
 
 
-I started with a baseline dummy classifier that achieved a crossval score of 93, but a precision score on the fraudulent transaction data of just 3%. and moved My best performance was a random forest classifier model with a CrossValidation score of 97. The f1 score on the fraudulent transactions was not great, but the precision score of 75% was much better than the other competing models. Below are the complete metrics and confusion matric for the best model. 
+I started with a baseline dummy classifier that achieved a crossval score of 93, but a precision score on the fraudulent transaction data of just 3%. and moved My best performance was a random forest classifier model with a CrossValidation score of 98.5. The f1 score on the fraudulent transactions was not great, but the precision score of 75% was much better than the other competing models. Below are the complete metrics and confusion matric for the best model. 
 
 ![Confusion Matrix](Static/RandomForestConfusionMatrix.png)
 
